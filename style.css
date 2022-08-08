@@ -1,0 +1,20 @@
+.container{
+    display: grid;
+    grid-template-columns: repeat(4, 25vh);
+    grid-template-rows: repeat(4, 25vh);;
+    margin-top: 50px;
+}
+.pixel{
+    padding: 5px;
+    font-size: 30px;
+    text-align: center;
+    transition: all .1s ease;
+    background-color: black;
+
+}
+.taint{
+    color: blueviolet;
+    background-color: rgb(176, 164, 164);
+    /* transition: all .1s ease; */
+
+}
